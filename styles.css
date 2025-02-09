@@ -181,7 +181,7 @@ header {
 
 .kitchen-section {
   background: #f7f8fa;
-  height: 1760px;
+  height: 1800px;
 
   width: 1440px;
 }
@@ -222,14 +222,17 @@ header {
   opacity: 0px;
 }
 .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   background-color: white;
   width: Fixed (277px) px;
   height: Fixed (87px) px;
   top: 250px;
-  padding: 20px 24px 20px 24px;
   gap: 10px;
   border-radius: 0px 0px 10px 10px;
   opacity: 0px;
+  padding: 12px;
 }
 .name-and-price {
   display: flex;
@@ -256,6 +259,7 @@ header {
   opacity: 0px;
 }
 .add-to-cart-btn {
+  padding: 12px;
   background: #f3ba00;
   width: 22px;
   height: 20px;
@@ -385,11 +389,14 @@ header {
   align-items: center;
   justify-content: center;
   color: white;
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 .carousel-arrow.next {
   margin-left: 1100px;
   visibility: visible;
+
 }
 
 .carousel-arrow.prev {
@@ -520,7 +527,7 @@ textarea {
   box-shadow: 0px 0px 1px 0px #00000040;
   padding: 10px;
 }
-button {
+.request-btn , .smt{
   background: #2ecc71;
   color: white;
   padding: 10px;
@@ -722,3 +729,11 @@ button {
   cursor: pointer;
   margin-top: 15px;
 }
+
+.crousel-cards{
+  position: relative;
+  top: 0px;
+  width: 900px;
+  height: 400px;
+}
+
